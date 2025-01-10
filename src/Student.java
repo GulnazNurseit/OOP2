@@ -12,7 +12,7 @@ public class Student extends Person {
         this.gpa = gpa;
     }
 
-    // Getters and Setters
+    
     public double getGpa() {
         return gpa;
     }
@@ -33,7 +33,7 @@ public class Student extends Person {
         return gpa > 2.67 ? 36660.00 : 0.00;
     }
 
-    // Position Method
+   
     @Override
     public String getPosition() {
         return "Student";
